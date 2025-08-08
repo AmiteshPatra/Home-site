@@ -20,6 +20,7 @@ body {
     background-color: var(--background-color);
     max-width: 1500px;
     margin: 0 auto;
+    transition: 0.1s ease;
 }
 
 a {
@@ -49,7 +50,7 @@ nav .right a {
     margin-left: 10px;
 }
 
-nav .right a:last-child {
+nav .right a:nth-last-child(2) {
     color: var(--background-color);
     background-color: var(--text-color);
     padding: 5px 10px;
@@ -58,6 +59,15 @@ nav .right a:last-child {
 
 nav .right a span {
     margin-left: 0px;
+}
+
+nav .right .theme-changer {
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+nav .right .theme-changer:active {
+    background-color: var(--background-color);
 }
 
 /* SECTION 1: Hero */
