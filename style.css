@@ -50,7 +50,7 @@ nav .right a {
     margin-left: 10px;
 }
 
-nav .right a:nth-last-child(2) {
+nav .right a:last-child {
     color: var(--background-color);
     background-color: var(--text-color);
     padding: 5px 10px;
@@ -61,14 +61,6 @@ nav .right a span {
     margin-left: 0px;
 }
 
-nav .right .theme-changer {
-    font-size: 20px;
-    margin-left: 15px;
-}
-
-nav .right .theme-changer:active {
-    background-color: var(--background-color);
-}
 
 /* SECTION 1: Hero */
 .hero {
@@ -88,6 +80,14 @@ nav .right .theme-changer:active {
 .hero .text h2 {
     font-size: 45px;
     margin-bottom: 10px;
+}
+
+.theme-changer {
+    cursor: pointer;
+}
+
+.theme-changer:active {
+    background-color: var(--background-color);
 }
 
 .hero .text .links {
